@@ -1,0 +1,27 @@
+#Node JS
+node_modules/
+logs/
+dist/
+npm-debug.log
+package-lock.json
+npm-shrinkwrap.json
+# system ignore
+.DS_Store
+Thumbs.db
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+.sonar
+
+#test log ignore
+.tags*
+/src/components/business/jewel/test.js
+/src/components/business/device/test.txt

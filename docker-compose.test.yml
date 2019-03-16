@@ -1,0 +1,30 @@
+version: '3'
+services:
+  wenwen-app-admin:
+    image: wenwenkj.com:5000/wenwen-html/wenwen-app-admin:latest
+    container_name: wenwen-app-admin
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+    environment:
+      - NODE_ENV=production
+      - WENWEN_ENV=test
+      - WENWEN_API_BASE_URL=http://debug.wenwen8.com:8881
+      - WENWEN_PORT=3000
+      - WENWEN_OSS_URL=http://test-img-server.oss-cn-shenzhen.aliyuncs.com/
+      - OSS_BUCKET=test-img-server
+    restart: unless-stopped
+    command: bash -c "npm run build:test && npm start"
+    ports:
+      - 3000:3000/tcp
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+        max_attempts: 300
+      update_config:
+        parallelism: 1
+        delay: 180s
+      resources:
+        limits:
+          cpus: "1"
+          memory: "2048M"

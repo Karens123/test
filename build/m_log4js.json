@@ -1,0 +1,19 @@
+{
+  "appenders": [
+    {
+      "type": "dateFile",
+      "filename": "logs/log_file.log",
+      "layout": {
+        "type": "pattern",
+        "pattern": "[%d{DATE}] [%[%5.5p%]] - %m%n"
+      },
+      "pattern": "-yyyy-MM-dd",
+      "alwaysIncludePattern": false,
+      "category": "optionLogger"
+    }
+  ],
+  "levels": {
+    "[all]": "INFO",
+    "optionLogger": "INFO"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "presets": [
+    "env",
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    "transform-runtime",
+    "transform-decorators-legacy",
+    "add-module-exports",
+    [
+      "import",
+      [
+        {
+          "libraryName": "antd",
+          "style": "true"
+        }
+      ]
+    ]
+    //ture改成str，解决antd样式打包后不引入的问题
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        [ "babel-plugin-webpack-alias", { "config": "./webpack.config.test.js" } ]
+      ]
+    }
+  }
+}

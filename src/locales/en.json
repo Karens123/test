@@ -1,0 +1,22 @@
+{
+  "login.gitlabLoginLabel": "Gitlab Login",
+  "login.gitlab.config.error": "Get gitlab config failed, error msg ",
+  "login.title": "Login",
+  "login.button": "Login",
+  "login.fail.accountException": "Your account have been frozen, please contract admin!",
+  "login.fail.other": "Login fail, error msg ",
+  "login.user.label": "User Name:",
+  "login.username.valid": "user name must more than 2 characters",
+  "login.password.label": "Password:",
+  "login.password.valid": "Password must more than 6 characters and less than 20 characters",
+  "login.business.label": "Business:",
+  "login.business.placeholder": "Select Business",
+  "login.business.wenwen": "Wenwen",
+  "login.license": "Wenwen Tech all rights reserved",
+  "login.loading": "Please wait a moment for logining...",
+  "login.gitlab.loading": "Please wait a moment ...",
+  "login.captcha.label": "Captcha:",
+  "login.captcha.empty": "Please input Captcha",
+  "login.captcha.valid": "Sorry, your captcha code error!",
+  "login.captcha.unknow": "Cant't not see, for another"
+}

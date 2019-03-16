@@ -1,0 +1,41 @@
+{
+  "moduleKeyDataList": [
+    {
+      "key": "heartWord",
+      "desc": "心语"
+    },
+    {
+      "key": "discovery",
+      "desc": "发现"
+    },
+    {
+      "key": "prayer",
+      "desc": "念佛"
+    }
+  ],
+  "resolutionDataList": [
+    {
+      "key": "default",
+      "desc": "默认"
+    },
+    {
+      "key": "1080*1920",
+      "desc": "1080*1920"
+    }
+  ],
+  "stateDataList": [
+    {
+      "key": "U",
+      "desc": "正常"
+    },
+    {
+      "key": "E",
+      "desc": "禁用"
+    }
+  ],
+  "resourceTypeMap": {
+    "0": "图片",
+    "1": "媒体",
+    "2": "字体"
+  }
+}

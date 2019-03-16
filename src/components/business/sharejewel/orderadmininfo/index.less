@@ -1,0 +1,117 @@
+.order-detail-page{
+  .cancelReson{
+    height: 50px;
+    padding: 5px;
+
+  }
+  .red{
+    color: #FF4B7F;
+  }
+  .setp{
+    padding: 0px 0 50px;
+    position: relative;
+    //width: 80%;
+    margin: 0 auto;
+    .Vline{
+      height: 2px;
+      overflow: hidden;
+      background: #ddd;
+      position: absolute;
+      left: 0;
+      top: 115px;
+      z-index:0;
+    }
+    .circle{
+      border-radius: 50%;
+      width: 62px;
+      height: 62px;
+      overflow: hidden;
+      display: inline-block;
+      border: solid 2px #ddd;
+      text-align: center;
+      line-height: 62px;
+      font-size: 18px;
+      font-weight: normal;
+      background: #fff;
+      position: absolute;
+      left: 0;
+      top: 81px;
+      z-index:1;
+    }
+    .done{
+      .circle{
+        border: solid 2px cornflowerblue;
+        text-indent: -1000px;
+      }
+      .Vline{
+        background: blue;
+      }
+      p.text{
+        color: blue;
+      }
+      .checkIcon{
+        color: blue;
+        display: inline;
+      }
+    }
+
+    .checkIcon{
+      display: none;
+      position: absolute;
+      left: 10px;
+      top: 95px;
+      z-index:2;
+      font-size: 40px;
+    }
+    .okright{
+    }
+    p.text{
+      position: absolute;
+      left: 0;
+      top: 154px;
+    }
+    .stepbox{
+      position: relative;
+    }
+  }
+
+  .title{
+    border-bottom: solid 1px #ddd;
+    line-height: 65px;
+    height: 65px;
+    font-size: 16px;
+    color: #000;
+  }
+  .order-info{
+    line-height: 45px;
+  }
+  .shopName{
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+  .blue{
+    color: green;
+  }
+  .fl{
+    float: left;
+  }
+  .fr{
+    float: right;
+  }
+}
+.default-relative{
+  position: relative;
+  z-index:1;
+}
+.default-absolute{
+  position: absolute;
+  z-index: 99;
+  left: 5px;
+  width: 60px;
+  top: 0;
+  height: 58px;
+  cursor: pointer;
+}

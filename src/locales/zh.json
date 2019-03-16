@@ -1,0 +1,22 @@
+{
+  "login.gitlabLoginLabel": "Gitlab 登录",
+  "login.gitlab.config.error": "获取gitlab配置信息失败，错误信息",
+  "login.title": "登录",
+  "login.button": "登录",
+  "login.fail.accountException": "该用户已被冻结，请联系管理人员！",
+  "login.fail.other": "登录失败,错误信息",
+  "login.user.label": "用户名：",
+  "login.username.valid": "用户名至少为 2 个字符",
+  "login.password.label": "密码：",
+  "login.password.valid": "密码至少为6位,最多20位",
+  "login.business.label": "商家：",
+  "login.business.placeholder": "选择商家",
+  "login.business.wenwen": "吻吻",
+  "login.license": "吻吻科技 版权所有",
+  "login.loading": "正在为您登录后台管理系统，请稍后。。。",
+  "login.gitlab.loading": "正在为您跳转，请稍后。。。",
+  "login.captcha.label": "验证码：",
+  "login.captcha.empty": "请输入验证码",
+  "login.captcha.valid": "抱歉，验证码错误！",
+  "login.captcha.unknow": "看不清，换一张"
+}

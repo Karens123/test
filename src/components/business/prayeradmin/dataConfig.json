@@ -1,0 +1,119 @@
+{
+  "allOrderListData":{
+    "records": [{
+      "goodsId": 2333,
+      "productType": 1,
+      "goodsName": "test1",
+      "status": 1,
+      "payType": "支付寶"
+    },{
+      "goodsId": 23133,
+      "productType": 1,
+      "goodsName": "test1",
+      "status": 1,
+      "payType": "支付寶"
+    },{
+      "goodsId": 22333,
+      "productType": 1,
+      "goodsName": "test1",
+      "status": 1,
+      "payType": "支付寶"
+    },{
+      "goodsId": 23333,
+      "productType": 1,
+      "goodsName": "test1",
+      "status": 1,
+      "payType": "支付寶"
+    }],
+    "totalCount": 10
+  },
+
+
+  "RelationData":[{
+    "BeadsId": 12345,
+    "userid": 1
+  } ,{
+    "BeadsId": 12344,
+    "userid": 2
+  } ],
+
+  "finishBeads":[{
+    "BeadsId": 123345,
+    "userid": 1
+  } ,{
+    "BeadsId": 123244,
+    "userid": 2
+  } ],
+
+
+
+  "purchaseOrderDetaillData": {
+    "usersId": 23333,
+    "orderTime": 1,
+    "Amount": 123,
+    "status": 1,
+    "payTime": "支付寶",
+    "cnt": 1000,
+    "tel": 13560373892,
+    "addres": "tttt",
+    "goodName": "test",
+    "orderState": 1,
+    "wechat": "123456",
+    "Monastery": "abs",
+    "Praying": "fdd"
+  },
+
+
+  "beadsApplicationAdmin": {
+    "records": [{
+      "userId": 1123,
+      "goodsName": "test",
+      "applyTime": 12,
+      "tel": "123456789322",
+      "address": "天河",
+      "status": 1
+    },{
+      "userId": 12323,
+      "goodsName": "test",
+      "applyTime": 12,
+      "tel": "123456789322",
+      "address": "天河",
+      "status": 1
+    },{
+      "userId": 1243,
+      "goodsName": "test",
+      "applyTime": 12,
+      "tel": "123456789322",
+      "address": "天河",
+      "status": 1
+    }],
+    "totalCount": 1
+},
+  "useManage": [{
+    "userName": 1,
+    "name": "test",
+    "distribution": 1,
+    "remark": "testtesttest",
+    "status": "U"
+  },{
+    "userName": 2,
+    "name": "test",
+    "distribution": 2,
+    "remark": "testtesttest",
+    "status": "E"
+  },{
+    "userName": 3,
+    "name": "test",
+    "distribution": 2,
+    "remark": "testtesttest",
+    "status": "U"
+  },{
+    "userName": 4,
+    "name": "test",
+    "distribution": 1,
+    "remark": "testtesttest",
+    "status": "U"
+  }]
+
+
+}
